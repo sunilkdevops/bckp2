@@ -1,0 +1,16 @@
+Started by upstream project "[8mha:////4JYrTxhaJ5Nx3FvGTVNw8qv+/nod4Un3Yt+WyMdVzUy+AAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/az8JP0sQ30AbVn8qr0AAAA=[0mj1" build number [8mha:////4E+5Y/ACsOfNiPj7LIGYD2x9afL1SZDHFrXZEr8bWrrCAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBk79rPwk/SxDfUMA+wl94r4AAAA=[0m1
+originally caused by:
+ Started by GitHub push by sunilkdevops
+Started by upstream project "[8mha:////4JYrTxhaJ5Nx3FvGTVNw8qv+/nod4Un3Yt+WyMdVzUy+AAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/az8JP0sQ30AbVn8qr0AAAA=[0mj1" build number [8mha:////4E+5Y/ACsOfNiPj7LIGYD2x9afL1SZDHFrXZEr8bWrrCAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBk79rPwk/SxDfUMA+wl94r4AAAA=[0m1
+originally caused by:
+ Started by GitHub push by sunilkdevops
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/j2
+[j2] $ /bin/sh -xe /tmp/jenkins8930596864857639499.sh
++ cd /var/lib/jenkins/workspace/projectc1
++ cp ABC.exe /home/ec2-user/
+cp: cannot stat '/home/ec2-user/ABC.exe': Permission denied
+Build step 'Execute shell' marked build as failure
+Triggering a new build of [8mha:////4C8sDGAhaSCH+V+xFk7lBKmy4uDU6yPks19PqdtyENu0AAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/az8JP0sY30A7zvKmL0AAAA=[0mj3
+Triggering a new build of [8mha:////4C8sDGAhaSCH+V+xFk7lBKmy4uDU6yPks19PqdtyENu0AAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/az8JP0sY30A7zvKmL0AAAA=[0mj3
+Finished: FAILURE

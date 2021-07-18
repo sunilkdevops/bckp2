@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-07-17 15:06:46.227 UTC</timestamp>
+  <md5sum>65bc3448b0c9a44660e2af34a5856664</md5sum>
+  <fileName>Credential id=370ef491-31c4-4d3e-b86d-a095375feb6c name=370ef491-31c4-4d3e-b86d-a095375feb6c</fileName>
+  <usages>
+    <entry>
+      <string>testing2</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

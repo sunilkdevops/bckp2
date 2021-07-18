@@ -1,0 +1,45 @@
+Started by GitHub push by sunilkdevops
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/j1
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/sunilkdevops/test1.git
+ > git init /var/lib/jenkins/workspace/j1 # timeout=10
+Fetching upstream changes from https://github.com/sunilkdevops/test1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/sunilkdevops/test1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/sunilkdevops/test1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision a8a324c8112e87bdf28ecd792726c070d1a36230 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a8a324c8112e87bdf28ecd792726c070d1a36230 # timeout=10
+Commit message: "Update big3.c"
+First time build. Skipping changelog.
+[j1] $ /bin/sh -xe /tmp/jenkins2067455395434076613.sh
++ cd /var/lib/jenkins/workspace/j1
++ make
+gcc -c main.c
+main.c:2:2: warning: return type defaults to ‘int’ [-Wimplicit-int]
+  main() {
+  ^~~~
+main.c: In function ‘main’:
+main.c:3:10: warning: implicit declaration of function ‘biggest3’ [-Wimplicit-function-declaration]
+          biggest3();
+          ^~~~~~~~
+main.c:4:10: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+          factorial();
+          ^~~~~~~~~
+main.c:5:10: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+          reverse();
+          ^~~~~~~
+gcc -c big3.c
+gcc -c fact.c
+gcc -c rev.c
+gcc -o ABC.exe main.o big3.o fact.o rev.o
+Triggering a new build of [8mha:////4N7HrBywDs2+7xH1E4WK2r3zSkvdb82TKm310/7yRUC7AAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/az8JP0sI30ArgrRgb0AAAA=[0mj2
+Triggering a new build of [8mha:////4N7HrBywDs2+7xH1E4WK2r3zSkvdb82TKm310/7yRUC7AAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/az8JP0sI30ArgrRgb0AAAA=[0mj2
+Finished: SUCCESS

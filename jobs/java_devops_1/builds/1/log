@@ -1,0 +1,44 @@
+Started by GitHub push by sunilkdevops
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/java_devops_1
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/sunilkdevops/java_p6.git
+ > git init /var/lib/jenkins/workspace/java_devops_1 # timeout=10
+Fetching upstream changes from https://github.com/sunilkdevops/java_p6.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/sunilkdevops/java_p6.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/sunilkdevops/java_p6.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 0228e0e09589ce49d34a720285e12efe7f2a9c82 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0228e0e09589ce49d34a720285e12efe7f2a9c82 # timeout=10
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+[java_devops_1] $ /bin/sh -xe /tmp/jenkins4589083942800916157.sh
++ cd /var/lib/jenkins/workspace/java_devops_1
++ mvn clean build
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.example:java-tomcat-maven-example >----------------
+[INFO] Building hello Maven Webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.192 s
+[INFO] Finished at: 2021-07-18T18:34:05Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Unknown lifecycle phase "build". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

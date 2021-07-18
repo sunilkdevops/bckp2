@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-07-17 15:19:34.192 UTC</timestamp>
+  <md5sum>4906f0184991339d84fefc8588a38081</md5sum>
+  <fileName>Credential id=df753a28-9bdd-4695-8f1e-14d19e9e7419 name=sunilkdevops/******</fileName>
+  <usages>
+    <entry>
+      <string>sun1</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>projectc1</string>
+      <ranges>4-6</ranges>
+    </entry>
+    <entry>
+      <string>p1</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

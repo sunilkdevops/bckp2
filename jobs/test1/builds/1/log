@@ -1,0 +1,26 @@
+Started by GitHub push by sunilkdevops
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test1
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/sunilkdevops/javaproj1.git
+ > git init /var/lib/jenkins/workspace/test1 # timeout=10
+Fetching upstream changes from https://github.com/sunilkdevops/javaproj1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/sunilkdevops/javaproj1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/sunilkdevops/javaproj1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 94e8ffd7ca370c72b83162c55442eb4a07e24731 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 94e8ffd7ca370c72b83162c55442eb4a07e24731 # timeout=10
+Commit message: "init"
+First time build. Skipping changelog.
+[test1] $ /bin/sh -xe /tmp/jenkins7242616540679204543.sh
++ cd /home/ec2-user/javaproj1
+/tmp/jenkins7242616540679204543.sh: line 2: cd: /home/ec2-user/javaproj1: Not a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

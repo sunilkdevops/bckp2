@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jons
+Build-Jdk: 1.8.0_252
+Extension-Name: downstream-build-cache
+Specification-Title: Maintains a cache of the upstream / downstream bu
+ ild relationships and makes it
+     available for other plugins.
+Implementation-Title: downstream-build-cache
+Implementation-Version: 1.6
+Group-Id: com.axis.system.jenkins.plugins.downstream
+Short-Name: downstream-build-cache
+Long-Name: Downstream Build Cache Plugin
+Url: https://github.com/jenkinsci/downstream-build-cache-plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.6
+Hudson-Version: 2.121.1
+Jenkins-Version: 2.121.1
+Plugin-Dependencies: workflow-step-api:2.19;resolution:=optional,workf
+ low-support:2.22;resolution:=optional
+Plugin-Developers: Gustaf Lundh:GustafL:gustaf.lundh@axis.com,Jon Sten
+ :jonsten:jon.sten@axis.com
+

@@ -1,0 +1,13 @@
+Started on Jul 18, 2021 6:36:04 PM
+Started by event from 140.82.115.250 ⇒ http://3.108.64.41:8080/github-webhook/ on Sun Jul 18 18:36:04 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 0228e0e09589ce49d34a720285e12efe7f2a9c82 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git ls-remote -h -- https://github.com/sunilkdevops/java_p6.git # timeout=10
+Found 1 remote heads on https://github.com/sunilkdevops/java_p6.git
+[poll] Latest remote head revision on refs/heads/master is: 288687ed936d2b657282676b3a7173daa96517c2
+Done. Took 0.29 sec
+Changes found
